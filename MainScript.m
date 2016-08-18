@@ -2,8 +2,8 @@ clc;
 clear;
 
 % Read the input videos
-% [input_video,~] = mmread('./SampleVideos/david_indoor.avi');
-[input_video,~] = mmread('./SampleVideos/Test.mp4');
+ [input_video,~] = mmread('./david_indoor.avi');
+%[input_video,~] = mmread('./SampleVideos/Test.mp4');
 
 % [input_video,~] = mmread('./SampleVideos/cars.avi');
 % [input_video,~] = mmread('./SampleVideos/footb.avi');
